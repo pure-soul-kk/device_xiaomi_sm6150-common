@@ -78,6 +78,10 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 TARGET_KERNEL_CLANG_VERSION := playground
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-playground
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    LLVM=1 \
+    LLVM_IAS=1
+
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom
 BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a600000.dwc3
 BOARD_KERNEL_CMDLINE += service_locator.enable=1
