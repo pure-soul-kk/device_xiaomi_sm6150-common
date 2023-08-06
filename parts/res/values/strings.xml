@@ -118,4 +118,7 @@
 
     <!-- Refresh Rate tile -->
     <string name="refresh_rate_tile_title">Refresh Rate</string>
+
+    <!-- Add Ons -->
+    <string name="dolby">Sony Dolby Atmos™</string>
 </resources>
