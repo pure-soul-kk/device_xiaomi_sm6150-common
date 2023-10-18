@@ -33,9 +33,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     Ornament \
     PixelLiveWallpaperPrebuilt \
     PlayAutoInstallConfig \
-    PrebuiltGmail \
     RecorderPrebuilt \
-    SafetyHubPrebuilt \
     SCONE \
     ScribePrebuilt \
     Showcase \
